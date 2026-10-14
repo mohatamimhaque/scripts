@@ -1,56 +1,46 @@
-# Byte-compiled / optimized / DLL files
+# Byte-compiled / cache / environments
 __pycache__/
-**/__pycache__/
 *.py[cod]
 *$py.class
 *.pyc
-
-# Distribution / packaging
-build/
-dist/
-downloads/
-**/downloads/
-*.egg-info/
-*.zip
-
-# Virtual Environments (Root and subdirectories)
 .venv/
-**/.venv/
-**/.venv/**
 venv/
-**/venv/
-**/venv/**
 ENV/
 env/
-
-# Jupyter Notebook Checkpoints & Cache
 .ipynb_checkpoints/
-**/.ipynb_checkpoints/
 *-checkpoint.ipynb
 
-# Scratch & Temporary Folders
+# Scratch & OS files
 scratch/
-**/scratch/
 tmp/
 temp/
 *.tmp
-
-# Operating System Files
 Thumbs.db
 [Dd]esktop.ini
 .DS_Store
-
-# IDE & Editor Configurations
 .idea/
 .vscode/
 
-# Environment & Secret Keys
+# Secrets & Logs
 .env
 .env.*
 *.secret
 credentials.json
+*.log
 
-# Large Generated Media / Video Outputs
+# Assets and archives
+assets/
+.assets/
+*.zip
+
+# Ignore Python scripts
+*.py
+
+# Ignore data spreadsheets
+*.csv
+*.xlsx
+
+# Media files
 *.part
 *.ytdl
 *.mp4
@@ -58,6 +48,3 @@ credentials.json
 *.webm
 *.avi
 *.mov
-
-# Log files
-*.log
