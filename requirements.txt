@@ -1,0 +1,22 @@
+# Core Execution & UI
+ipykernel>=6.29.0
+requests>=2.32.0
+tqdm>=4.66.0
+
+# Document & Presentation Automation (AutoCrat Pro)
+python-pptx>=1.0.2
+pandas>=2.2.0
+openpyxl>=3.1.5
+pypdf>=6.20.0
+qrcode>=8.0
+pillow>=10.4.0
+zxingcpp>=2.2.0
+pywin32>=306; sys_platform == 'win32'
+comtypes>=1.4.17; sys_platform == 'win32'
+
+# Media & Video Processing (YouTube Downloader & Media Toolkit)
+yt-dlp>=2024.08.0
+
+# PDF & Optical Character Recognition Suite (PDF Toolkit Pro)
+pymupdf>=1.24.0
+markdown>=3.6
